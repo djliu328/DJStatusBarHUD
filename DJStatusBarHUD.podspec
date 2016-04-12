@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
     s.authors      = {'dj_liu' => 'djliu328@126.com'}
     s.platform     = :ios, '7.0'
     s.source       = {:git => 'https://github.com/djliu328/DJStatusBarHUD.git', :tag => s.version}
-    s.source_files = 'DJStatusBarHUD/DJStatusBarHUD.bundle'
+    s.source_files = 'DJStatusBarHUD/**/*.{h,m}'
+    s.resource     = 'DJStatusBarHUD/DJStatusBarHUD.bundle'
     s.requires_arc = true
 end
