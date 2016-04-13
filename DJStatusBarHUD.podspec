@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'DJStatusBarHUD'
-    s.version      = '0.0.1'
+    s.version      = '0.0.2'
     s.summary      = 'The easily and conveniently use of statusBar'
     s.homepage     = 'https://github.com/djliu328/DJStatusBarHUD'
     s.license      = 'MIT'
