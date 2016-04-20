@@ -4,8 +4,8 @@
 ## <a id="如何使用DJStatusBarHUD"></a>如何使用DJStatusBarHUD
 * cocoapods导入：`pod 'DJStatusBarHUD'`
 * 手动导入：
-* 将`DJStatusBarHUD`文件夹中的所有文件拽入项目中
-* 导入主头文件：`#import "DJStatusBarHUD.h"`
+    * 将`DJStatusBarHUD`文件夹中的所有文件拽入项目中
+    * 导入主头文件：`#import "DJStatusBarHUD.h"`
 
 ##详细使用方法
 1：显示成功信息
