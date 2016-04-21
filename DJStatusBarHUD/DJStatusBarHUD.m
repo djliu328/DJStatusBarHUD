@@ -68,6 +68,7 @@ static NSTimer *timer_;
     btn.titleLabel.font = [UIFont systemFontOfSize:12];
     if (image) {//如果有图片
         [btn setImage:image forState:UIControlStateNormal];
+        [btn setImage:image forState:UIControlStateHighlighted];
         btn.titleEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
     }
     btn.frame = window_.bounds;
